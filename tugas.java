@@ -42,7 +42,7 @@ public class tugas {
                    break;
                default:
                    System.out.println("Tidak ada pilihan");
-           }
+           }//perubahan x
        }
     }
 }
