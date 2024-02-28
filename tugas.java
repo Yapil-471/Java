@@ -20,7 +20,7 @@ public class tugas {
                    Scanner scannim = new Scanner(System.in);// = scanner objinput
                    System.out.print("Enter your NIM: ");
                    NIM = scannim.nextLine();//kode utk mengimputkan sebuah nilai string ke variabel nim
-                   if (NIM.length() == 15 ){// length = utk menghitung pjg karakter nim
+                   if (NIM.length() == 15 ){// Length = utk menghitung pjg karakter nim
                        System.out.println("Succesfull Login as student");
                    }else {
                        System.out.println("User not found");
