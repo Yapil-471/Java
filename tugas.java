@@ -32,7 +32,7 @@ public class tugas {
                    System.out.print("Enter your password(admln): ");
                    Password = scanadmin.nextLine();
                    if (Admin.equals("admin")&&Password.equals("admln")){// jika variabel Admin = admin dan pass = admln mka dia akan mnjlnkn kode di bawahx
-                       System.out.println("Succesfull Login as admin");
+                       System.out.println("Succesfull Login as admin");//mengembalikan nilai benar jika stringx sma, & salah jka stringx beda
                    }else {
                        System.out.println("admin user not found");
                    }break;
