@@ -24,7 +24,7 @@ public class tugas {
                        System.out.println("Succesfull Login as student");
                    }else {
                        System.out.println("User not found");
-                   }break;// utk memberhentikan perulangan dri swicth
+                   }break;
                case 2:
                    Scanner scanadmin = new Scanner(System.in);// = scanner objinput
                    System.out.print("Enter your user name(admin): ");
